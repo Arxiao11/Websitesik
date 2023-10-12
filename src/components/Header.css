@@ -1,0 +1,25 @@
+.header {
+    background-color: rgb(61, 48, 119); /* Ubah sesuai keinginan Anda */
+    color: white;
+    padding: 10px 20px; /* Padding untuk menjaga konten dari tepi */
+    display: flex;
+    justify-content: space-between; /* Menyusun konten ke kanan dan kiri */
+  }
+  
+  .contact-info {
+    display: flex;
+    flex-direction: row; /* Membuat email dan telepon sejajar horizontal */
+    align-items: center; /* Menyusun ke tengah secara vertikal */
+  }
+  
+  .contact-info p {
+    margin-right: 20px; /* Jarak antara "Email" dan nomor telepon */
+  }
+  
+  .social-media a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px; /* Jarak antar tautan media sosial */
+  }
+
+  

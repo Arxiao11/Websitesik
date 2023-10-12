@@ -1,0 +1,33 @@
+  /* NewsContent.css */
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Spasi dari konten Content2 */
+  }
+  
+  .news-box {
+    width: 350px; /* Lebar kotak berita */
+    height: 500px; /* Tinggi kotak berita */
+    background-color: #e5e5e5; /* Warna latar belakang kotak berita */
+    border: 1px solid #ccc; /* Border kotak berita */
+    margin: 10px; /* Spasi antara kotak-kotak berita */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .news-image {
+    width: auto; /* Mengisi lebar kotak */
+    height: 60%; /* 60% dari tinggi kotak berita */
+     /* Gambar memenuhi kotak tanpa mengubah aspek rasio */
+  }
+
+  .news-box h3{
+    font-size: 20px;
+    color: rgb(78, 73, 73);
+  }
+  .hr{
+    color: orange;
+  }
+  
+  

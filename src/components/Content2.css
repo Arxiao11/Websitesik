@@ -1,0 +1,50 @@
+/* Content2.css */
+.content2-container {
+    background-image: url('https://sik-kdserang.upi.edu/wp-content/uploads/2022/09/131017101140photo-upi.jpg'); 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60vh;
+    overflow: hidden;
+    position: relative;
+    background-attachment: fixed; 
+  }
+  
+  .content2-image {
+    flex: 1;
+    padding: 30px; /* Tambahkan padding untuk jarak antara gambar dan konten info */
+    text-align: left; /* Setel konten gambar ke kiri */
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  img {
+    max-width: 80%; /* Maksimum lebar gambar */
+    max-height: 80%; /* Maksimum tinggi gambar */
+    margin-right: 20px;
+  }
+  
+  .content2-info {
+    flex: 1;
+    padding: 20px;
+    text-align: left;
+    color: white;
+  }
+  
+  .content2-info h1{
+    text-align: center;
+  }
+  
+  .orange-button {
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .orange-button:hover {
+    background-color: darkorange;
+  }
+  

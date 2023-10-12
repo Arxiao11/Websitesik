@@ -1,0 +1,109 @@
+/* Content.css */
+.content-container {
+    display: flex;
+    height: 80vh;
+  }
+  
+  .content {
+    flex: 5; /* Bagian kiri (lebar 5/6) */
+    padding: 20px; /* Sesuaikan dengan gaya Anda */
+    background-color: #f2f2f2; /* Warna latar belakang konten */
+  }
+
+  .content h3{
+    font-size: 24px;
+  }
+
+  .hr-bold {
+    border-top: 6px solid orange; /* Ubah ketebalan dan warna sesuai kebutuhan */
+  }
+  
+  .sidebar {
+    width: 400px;
+    margin-top: 0;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    float: right;
+      color: orange;
+      text-align:left;
+      padding: 10px;
+      top: 50px;
+      right:0;
+  }
+
+    .sidebar h2
+{
+  font-size: 24px; /* Ukuran font */
+  font-weight: bold; /* Ketebalan font */
+  color: orange; /* Warna teks */
+  text-align: left; /* Posisi teks (rata kiri) */
+  margin-top: 10px; /* Jarak atas teks dari elemen di atasnya */
+  margin-bottom: 18px; /* Jarak bawah teks dari elemen di bawahnya */
+}
+
+.menu-artikel ul
+{
+        list-style-type: none;
+        text-align: left; /* Tambahkan ini untuk membuat konten rata kiri */
+      
+}
+ 
+.menu-artikel ul li a
+{
+  text-decoration: none;
+  display: block;
+  padding: 13px;
+  border-bottom: 3px solid rgb(240, 178, 63);
+  margin-bottom: 3px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 17px;
+}
+ 
+.menu-artikel ul li a:hover
+{
+  color: darkorange;
+  border-bottom: 5px double rgb(216, 173, 55);
+  transition-duration: 2s;
+}
+/* Content.css */
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.video {
+  flex: 1;
+  margin-right: 20px; /* Jarak antara video dan video info */
+}
+
+.video-info {
+  flex: 2;
+  text-align: center;
+  color: gray;
+  font-size: 17px;
+}
+
+iframe {
+  width: 50%;
+  height: 280px;
+}
+
+.orange-button {
+  background-color: orange;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+}
+
+.orange-button:hover {
+  background-color: darkorange;
+}
+
+
+
+
+
